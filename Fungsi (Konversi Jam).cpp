@@ -11,24 +11,24 @@ int kj(int j,int m,int d)
 }
 int main()
 {
-    int jam2,menit3,detik4;
+    int jam1,menit1,detik1;
 
-    cout<<"Masukkan jam 2:";cin>>jam2;
-    cout<<"masukkan menit 3:";cin>>menit3;
-    cout<<"masukkan detik 4:";cin>>detik4;
+    cout<<"Masukkan jam 1:";cin>>jam1;
+    cout<<"masukkan menit 1:";cin>>menit1;
+    cout<<"masukkan detik 1:";cin>>detik1;
 
-    cout<<"Jumlah Detik4:"<<kj(jam2,menit3,detik5)<<endl:
+    cout<<"Jumlah Detik1:"<<kj(jam1,menit1,detik1)<<endl:
 
-    int jam3,menit4,detik5;
+    int jam2,menit2,detik2;
 
-    cout<<"masukkan jam 3:";cin>>jam3;
-    cout<<"masukkan menit 4:";cin>>menit4;
-    cout<<"masukkan detik 5:";cin>>detik5;
+    cout<<"masukkan jam 2:";cin>>jam2;
+    cout<<"masukkan menit 2:";cin>>menit2;
+    cout<<"masukkan detik 2:";cin>>detik2;
 
-    cout<<"Jumlah Detik5:"<<kj(jam3,menit4,detik5)<<endl;
+    cout<<"Jumlah Detik2:"<<kj(jam2,menit2,detik2)<<endl;
 
 
     int jumlah;
-    jumlah=kj(jam2,menit3,detik4)+kj(jam3,menit4,detik5);
+    jumlah=kj(jam1,menit1,detik1)+kj(jam2,menit2,detik2);
     cout<<"hasil:"<<jumlah;
 }
